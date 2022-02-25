@@ -13,7 +13,7 @@ def ApproximatePatternMatching(text, pattern, d):
                 ans = ans + " " + str(i)
         return ans
     
-f = open('dataset8.txt', 'rt')
+f = open('dataset_1.8.4.txt', 'rt')
 input = f.read().split("\n")
 pattern = input[0]
 text = input[1]

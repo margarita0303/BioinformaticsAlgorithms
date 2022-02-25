@@ -23,7 +23,7 @@ def BetterFrequentWords(text, k):
     return frequentPatterns
     
     
-f = open('dataset2.txt', 'rt')
+f = open('dataset_1.2.13.txt', 'rt')
 input = f.read().split("\n")
 text = input[0]
 k = input[1]

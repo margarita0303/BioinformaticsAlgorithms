@@ -24,7 +24,7 @@ def FindClumps(text, k, L, t):
         patternsAsString = patternsAsString + " " + i
     return patternsAsString
 
-f = open('dataset5.txt', 'rt')
+f = open('dataset_1.4.5.txt', 'rt')
 input = f.read().split("\n")
 text = input[0]
 k = input[1]

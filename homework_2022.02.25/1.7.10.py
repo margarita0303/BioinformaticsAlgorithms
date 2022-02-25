@@ -17,7 +17,7 @@ def MinimumSkews(genom):
             
     return indexesOfMinSkews
 
-f = open('dataset6.txt', 'rt')
+f = open('dataset_1.7.10.txt', 'rt')
 genom = f.read()
     
 

@@ -14,7 +14,7 @@ def ApproximatePatternCount(text, pattern, d):
                 count += 1
         return count
     
-f = open('dataset7.txt', 'rt')
+f = open('dataset_1.8.6.txt', 'rt')
 input = f.read().split("\n")
 pattern = input[0]
 text = input[1]
